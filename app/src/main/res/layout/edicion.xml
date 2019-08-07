@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/ievento"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/bloque2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <EditText
+                            android:id="@+id/nomevento"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:gravity="center"
+                            android:hint="NOMBRE DEL EVENTO"
+                            android:textColor="#97999B"
+                            android:textSize="32dp"
+                            android:textStyle="bold" />
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content" />
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+                                            <TextView
+                                                android:text="Día"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content" />
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content">
+                                                <EditText
+                                                    android:layout_gravity="center"
+                                                    android:id="@+id/fechaE"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:inputType="date"
+                                                    android:hint="@string/formato_fecha"/>
+                                                <ImageView
+                                                    android:id="@+id/ib_obtener_fecha"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_width="20dp"
+                                                    android:layout_height="40dp"
+                                                    android:src="@drawable/triangulo"/>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+                                            <TextView
+                                                android:text="Hora Inicio"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content" />
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content">
+
+                                                <EditText
+                                                    android:id="@+id/horaI"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:hint="hh:mm"
+                                                    android:inputType="date" />
+                                                <ImageView
+                                                    android:id="@+id/ib_obtener_hora1"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_width="20dp"
+                                                    android:layout_height="40dp"
+                                                    android:src="@drawable/triangulo"/>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+                                        <LinearLayout
+                                            android:layout_marginLeft="20dp"
+                                            android:orientation="vertical"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+                                            <TextView
+                                                android:text="Hora Fin"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content" />
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content">
+
+                                                <EditText
+                                                    android:id="@+id/horaF"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:hint="hh:mm"
+                                                    android:inputType="date" />
+                                                <ImageView
+                                                    android:id="@+id/ib_obtener_hora2"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_width="20dp"
+                                                    android:layout_height="40dp"
+                                                    android:src="@drawable/triangulo"/>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp">
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+                                            <TextView
+                                                android:id="@+id/tjefe"
+                                                android:text="JEFE"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="30dp" />
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content">
+                                                <Spinner
+                                                    android:id="@+id/jefe"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="30dp"></Spinner>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp">
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                            <TextView
+                                                android:id="@+id/tdelegado"
+                                                android:text="DELEGADO"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="30dp" />
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content">
+                                                <Spinner
+                                                    android:id="@+id/delegado"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="30dp"></Spinner>
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp">
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+                                            <TextView
+                                                android:id="@+id/departamento"
+                                                android:text="DEPARTAMENTO"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="30dp" />
+
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content">
+                                                <Spinner
+                                                    android:id="@+id/ddepartamento"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="30dp"></Spinner>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp">
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                            <TextView
+                                                android:id="@+id/municipio"
+                                                android:text="MUNICIPIO"
+                                                android:textColor="#97999B"
+                                                android:textSize="20dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="30dp" />
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content">
+                                                <Spinner
+                                                    android:id="@+id/dmunicipio"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="30dp"></Spinner>
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:text="ORGANIZADOR"
+                                            android:textColor="#97999B"
+                                            android:textSize="20dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content" />
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content">
+                                            <EditText
+                                                android:id="@+id/nombreOrg"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:inputType="text"
+                                                android:hint="Nombre del organizador"/>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:text="Dirección"
+                                            android:textColor="#97999B"
+                                            android:textSize="20dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content" />
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content">
+                                            <EditText
+                                                android:id="@+id/direvento"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:inputType="text"
+                                                android:hint="Dirección del lugar del evento"/>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:text="Teléfono"
+                                            android:textColor="#97999B"
+                                            android:textSize="20dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content" />
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content">
+                                            <EditText
+                                                android:id="@+id/televento"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:inputType="text"
+                                                android:hint="Teléfono de referencia"/>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:text="Número de personas"
+                                            android:textColor="#97999B"
+                                            android:textSize="20dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content" />
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content">
+                                            <EditText
+                                                android:id="@+id/num_personas"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:inputType="text"
+                                                android:hint="Total de asistentes"/>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <Button
+                                        android:id="@+id/addEvento"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="ACEPTAR"
+                                        android:background="@color/colorPrimary"
+                                        android:textStyle="bold|italic"
+                                        android:textSize="25dp"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

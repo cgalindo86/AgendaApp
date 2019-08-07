@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="200dp">
+    <RelativeLayout
+        android:background="@drawable/borde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fecha"
+                    android:layout_gravity="center"
+                    android:textSize="23dp"
+                    android:textColor="#5D7975"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOY" />
+
+                <TextView
+                    android:id="@+id/hora"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#5D7975"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14:00 - 15:00" />
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_gravity="center"
+                    android:textColor="#5D7975"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chequeo general" />
+
+                <TextView
+                    android:id="@+id/departamento"
+                    android:layout_gravity="center"
+                    android:layout_width="200dp"
+                    android:textColor="#D0D3D4"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:text="Departamento - Municipio" />
+
+                <TextView
+                    android:id="@+id/direccion"
+                    android:layout_gravity="center"
+                    android:layout_width="200dp"
+                    android:textColor="#D0D3D4"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:text="Av. Los conquistadores Barranco" />
+
+                <TextView
+                    android:id="@+id/telefono"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:textColor="#D0D3D4"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:text="99888777" />
+                <TextView
+                    android:id="@+id/nombre"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:gravity="right"
+                    android:text="FIRULAIS" />
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/colorido"
+                android:background="#FF0000"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

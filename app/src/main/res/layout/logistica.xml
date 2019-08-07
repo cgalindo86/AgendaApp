@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="SILLAS"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/csillas"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dsillas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:hint="Costo"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="SONIDO"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/csonido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dsonido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="TARIMA"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/ctarima"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dtarima"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="CARPA"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/ccarpa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dcarpa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="VIDEOBEAM"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/cvideobeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dvideobeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="PANTALLA"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/cpantalla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dpantalla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="ARTISTA"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/cartista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dartista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="AVANZADA"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/cavanzada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/davanzada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="TRANSPORTE"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Cantidad:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/ctransporte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Dinero:"
+                    android:layout_gravity="center"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/dtransporte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:hint="Costo"
+                    android:inputType="numberDecimal"
+                    android:textColor="#97999B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="#20451232"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:hint="OBSERVACIONES"
+                android:textColor="#97999B"
+                android:textSize="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/observaciones"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:textColor="#97999B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/addEvento"
+            android:layout_gravity="center_horizontal"
+            android:text="ACEPTAR"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold|italic"
+            android:textSize="25dp"
+            android:layout_width="200dp"
+            android:layout_height="32dp" />
+    </LinearLayout>
+</ScrollView>
